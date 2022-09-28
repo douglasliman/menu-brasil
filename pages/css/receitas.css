@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto','sans-serif';
 }
 dt{
     font-size: 25px;
@@ -14,10 +14,9 @@ p{
     font-size: 20px !important;
 
 }
-a:link, a:visited a:link:active, a:visited:active{
-    color: rgba(254, 168, 62, 0.822);
-  }
-  ul{
+
+
+ul{
     list-style: circle !important;
 
   }
