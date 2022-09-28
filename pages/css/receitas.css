@@ -17,6 +17,10 @@ p{
 a:link, a:visited a:link:active, a:visited:active{
     color: rgba(254, 168, 62, 0.822);
   }
+  ul{
+    list-style: circle !important;
+
+  }
 /*----------------------MODAL-----------------------*/
 
 .fade-custon {
