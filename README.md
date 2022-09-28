@@ -5,10 +5,10 @@
 
 Porjeto construido no final do bimestre de Front-End-I de 2022.
 
-![preview](./.github/preview.png)
+![preview](/.github/preview.png)
 
 [🔗Clique Aqui  para acessar](
-    Inserir link
+    https://douglasliman.github.io/menu-brasil/
 )
 
 
@@ -25,6 +25,6 @@ Porjeto construido no final do bimestre de Front-End-I de 2022.
 # Douglas
 - douglas.lima.queiroz@gmail.com
 # Poliana
-- 
+-  polianariveiro@gmail.com
 # Pedro
-- 
+- polianariveiro@gmail.com
