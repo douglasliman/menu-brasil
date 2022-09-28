@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+dt{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+li {
+    font-size: 20px !important;
+}
+p{
+    font-size: 20px !important;
+
+}
+a:link, a:visited a:link:active, a:visited:active{
+    color: rgba(254, 168, 62, 0.822);
+  }
+/*----------------------MODAL-----------------------*/
+
+.fade-custon {
+  margin-top: 90px;
+}
+
+.login-title {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text-conta {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-modal {
+  width: 40%;
+  margin-left: 130px;
+}
+
+.modal-title-custon {
+  text-align: center;
+  color: #fea83e;
+  font-size: 24px;
+}
+
+/*--------------- BARRA DE NAVEGAÇÃO ---------------*/
+
+header,
+.navbar {
+ 
+  background-color: #242424;
+}
+.edit-logo {
+  display: flex;
+}
+.name {
+  padding-top: 5px;
+  transition: 0.7s;
+}
+.edit-logo .name:hover {
+  color: rgb(255, 163, 5);
+}
+.navbar-nav-custom {
+  gap: 20px;
+  width: 100%;
+  justify-content: end;
+  padding-right: 12px;
+}
+.btn-custom {
+  background-color: #ef8514cb;
+  border: none;
+  border-radius: 10px;
+  margin-top: 8px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  transition: 0.7s;
+}
+.btn-custom:hover {
+
+  background-color: rgba(255, 167, 15, 0.966);
+  animation-name: animation-explorer-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: scale(1.02);
+}
+.nav-item .link-edit {
+  font-size: 23px;
+  color: rgba(254, 168, 62, 0.822);
+  transition: 0.7s;
+}
+.nav-item a:hover {
+  color: #f74d0a;
+}
+/* -----------LOGO----------------- */
+#logo {
+  width: 130px;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+.container-fluid a {
+  color: rgba(254, 168, 62, 0.822);
+}
+
+/* --------------------------------receitas------------------------ */
+
+.receitas img {
+  height: 100vh;
+
+ 
+
+  object-fit: cover;
+  width: 100%;
+  top: 80px;
+}
+
+.title h1 {
+  font-weight: 900;
+  font-size: 64px;
+  padding-left: 122px;
+  text-transform: uppercase;
+  padding-top: 32px;
+  width: 100%;
+}
+
+label {
+  cursor: pointer;
+}
+#coracao {
+  display: none;
+}
+#coracao:checked + label > svg {
+  animation: preencher;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes preencher {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: red;
+    opacity: 0.8;
+  }
+}
+
+.favorite {
+  padding-left: 122px;
+  stroke: red;
+}
+
+.sobre-receitas p {
+  padding-left: 122px;
+  padding-top: 36px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.dados {
+  padding-left: 120px;
+  display: flex;
+  gap: 280px;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 32px;
+  width: 100%;
+}
+
+.origem {
+  padding-left: 122px;
+  font-size: 24px;
+  padding-top: 4px;
+  text-decoration: none;
+}
+
+.origem a {
+  text-decoration: none;
+  color: #0085ff;
+}
+
+.ingredientes {
+  padding-left: 140px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.title-tutorial {
+  padding-left: 122px;
+  padding-top: 42px;
+  font-size: 36px;
+}
+
+.video-receitas iframe {
+  width: 100%;
+  height: 659px;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-right: 50px;
+  padding-left: 122px;
+}
+
+footer {
+  min-height: 300px;
+  background-color: #171717;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.quem-fez {
+  padding: 20px 50px;
+
+}
+
+.quem-fez a {
+  text-decoration: none;
+}
+
+.quem-fez h3 {
+  font-size: 24px;
+}
+
+.quem-fez p {
+  font-size: 14px;
+ 
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.icon-rede {
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+}
+
+.data-footer {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 460px) {
+  .title h1 {
+      padding-left: 20px;
+  }
+
+  .favorite {
+      padding-left: 20px;
+  }
+
+  .sobre-receitas p {
+      padding-left: 20px;
+  }
+
+  .dados {
+      padding-left: 20px;
+
+  }
+
+  .origem {
+      padding-left: 20px;
+
+  }
+
+  .ingredientes {
+      padding-left: 50px;
+  }
+
+  .title-tutorial {
+      padding-left: 20px;
+
+  }
+
+  .video-receitas iframe {
+      padding-left: 20px;
+
+  }
+
+}
+
+@media (max-width: 660px) {
+  .video-receitas iframe {
+      height: 400px;
+  }
+  .title h1 {
+    font-size: 50px;
+}
+}
+@media(max-width: 425px){
+
+  .name{
+    display: none;
+  }
+
+}
+@media(max-width: 768px){
+
+  .sobre-receitas p {
+   margin-left: 20px;
+    padding-right: 40px;
+}
+  .dados{
+    margin-left: 20px;
+  }
+  .origem{
+    margin-left: 20px;
+  }
+}

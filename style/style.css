@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* -----------------------VAR DE CORES (AINDA A DEFINIR)---------------------------------- */
+:root {
+  --button: #fff;
+  --buton-hover: #fff;
+}
+/* GERAIS */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.row {
+  margin: 10px;
+}
+.container {
+  padding: 70px 0;
+}
+p{
+  font-family: 'Roboto','sans-serif';
+  font-size: 15px;
+}
+h5{
+  font-family: 'Roboto','sans-serif';
+}
+label{
+  font-family: 'Roboto','sans-serif';
+}
+a{
+  font-family: 'Roboto','sans-serif';
+}
+h1{
+  font-family: 'Roboto','sans-serif';
+}
+h3{
+  font-family: 'Roboto','sans-serif';
+}
+button{
+  font-family: 'Roboto','sans-serif';
+}
+/* ------------------------CORES DOS OPTIONS MENUS ---------------------------*/
+.color-menu {
+  color: rgba(0, 0, 0, 0.759);
+  font-size: 18px;
+}
+
+/*----------------------MODAL-----------------------*/
+
+.fade-custon {
+  margin-top: 90px;
+}
+
+.login-title {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.text-conta {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-modal {
+  width: 40%;
+  margin-left: 130px;
+}
+
+.modal-title-custon {
+  text-align: center;
+  color: #fea83e;
+  font-size: 24px;
+}
+
+
+/*--------------- BARRA DE NAVEGAÇÃO ---------------*/
+
+header,
+.navbar {
+  /*background-color: #f59c28c3;*/
+  background-color: #242424;
+}
+.edit-logo {
+  display: flex;
+
+}
+.name{
+    padding-top: 5px;
+    transition: 0.7s;
+}
+.edit-logo .name:hover {
+  color: rgb(255, 163, 5);
+
+}
+.navbar-nav-custom {
+  gap: 20px;
+  width: 100%;
+  justify-content: end;
+  padding-right: 12px;
+}
+.btn-custom {
+  background-color: #ef8514cb;
+  border: none;
+  border-radius: 10px;
+  margin-top: 8px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  transition: 0.7s;
+}
+.btn-custom:hover {
+  /*background-color: rgb(254, 168, 62) /*rgba(255, 68, 0, 0.874)*/
+  background-color: rgba(255, 167, 15, 0.966);
+  animation-name: animation-explorer-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: scale(1.02);
+}
+.nav-item .link-edit {
+  font-size: 23px;
+  color: rgba(254, 168, 62, 0.822);
+  transition: 0.7s;
+}
+.nav-item a:hover {
+ 
+  color: #f74d0a;
+}
+/* -----------LOGO----------------- */
+#logo {
+  width: 130px;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+.container-fluid a {
+  color: rgba(254, 168, 62, 0.822);
+}
+
+/* ---------------MAIN-------------- */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50vh;
+  width: 100%;
+}
+
+.welcome h1 {
+  color: #ff8c00ea;
+  font-size: 60px;
+  text-transform:uppercase;
+}
+.welcome p {
+  color: #ff7b00;
+  font-size: 35px;
+  text-transform:lowercase;
+}
+
+.carousel-custom img {
+  height: 100vh;
+
+  width: 100%;
+
+  object-fit: cover;
+ 
+}
+
+
+
+.explorer:hover {
+  background-color: rgba(255, 167, 15, 0.966);
+
+  animation-name: animation-explorer-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: scale(1.02);
+}
+
+.explorer {
+  background-color: #ef8514cb;
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  font-size: 22px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -0.6em 0.4em 2em 0em hsla(31, 87%, 51%, 0.452);
+  transition: 1s;
+}
+
+.main-content {
+  background-color: #cbcbc555;
+}
+.main-content .section-title {
+    color: #202020;
+  font-size: 52px;
+  text-align: center;
+  padding-top: 20px;
+}
+.main-content .recipes {
+  padding-top: 40px;
+  text-align: center;
+}
+.bg {
+  background-image: url("/assets/bg-food.png");
+  background-size: cover;
+}
+
+@keyframes animation-card-person-img {
+  0% {
+    filter: brightness(90%);
+  }
+
+  100% {
+    filter: brightness(60%);
+  }
+}
+
+.card-perso img:hover {
+  animation-name: animation-card-person-img;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.card-perso img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+}
+
+.card-perso:hover {
+  animation-name: animation-card-perso;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transform: scale(1.04);
+}
+
+.card-perso {
+  margin-bottom: 20px;
+    height: 500px !important;
+  border-radius: 30px !important;
+  box-shadow: -0.3em 0.4em 3em 0em rgba(54, 53, 53, 0.475);
+  transition: 2s;
+}
+
+.card-body-perso .btn-perso {
+  background-color: #ffa70fb3;
+  width: 150px;
+  height: 50px;
+
+  font-size: 23px;
+  transition: 0.8s;
+}
+.card-body-perso .btn-perso:hover {
+  background-color: #ffa70f !important;
+}
+
+/*------------------------FOOTER------------------------------*/
+
+/*.footer{
+    
+    width: 100%;
+    height: 150px;
+
+ 
+
+    background: #171717;
+}*/
+
+footer {
+  min-height: 300px;
+  background-color: rgba(23, 23, 23, 0.945);
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.quem-fez {
+  padding: 20px 50px;
+  padding-top: 80px;
+  display: inline-block;
+  justify-content: space-between;
+  /* margin-left: 90px; */
+}
+
+.quem-fez a {
+  text-decoration: none;
+}
+
+.quem-fez h3 {
+  font-size: 24px;
+}
+
+.quem-fez p {
+  font-size: 14px;
+  /* padding-top: 14px; */
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.icon-rede {
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+}
+
+.data-footer {
+  text-align: center;
+  width: 100%;
+ padding-bottom: 20px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width: 425px){
+
+    .name{
+      display: none;
+    }
+    .welcome h1{
+      text-align: center;
+      display: flex;
+   
+    }
+}
