@@ -213,7 +213,7 @@ header,
   text-align: center;
 }
 .bg {
-  background-image: url("./assets/bg-food.png");
+  background-image: url("/assets/bg-food.png");
   background-size: cover;
 }
 
