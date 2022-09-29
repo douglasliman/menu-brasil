@@ -27,4 +27,4 @@ Porjeto construido no final do bimestre de Front-End-I de 2022.
 # Poliana
 -  polianariveiro@gmail.com
 # Pedro
-- polianariveiro@gmail.com
+- pedroshd7@gmail.com

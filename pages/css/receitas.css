@@ -209,9 +209,12 @@ label {
   padding-left: 122px;
 }
 
+/*------------------------FOOTER------------------------------*/
+
+
 footer {
   min-height: 300px;
-  background-color: #171717;
+  background-color: rgba(23, 23, 23, 0.945);
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
@@ -223,6 +226,7 @@ footer {
 .quem-fez {
   padding: 20px 50px;
   padding-top: 40px;
+ 
 }
 
 .quem-fez a {
@@ -235,7 +239,6 @@ footer {
 
 .quem-fez p {
   font-size: 14px;
- 
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -248,7 +251,7 @@ footer {
 .data-footer {
   text-align: center;
   width: 100%;
-  padding-bottom: 20px;
+ padding-bottom: 20px;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.5);
 }
